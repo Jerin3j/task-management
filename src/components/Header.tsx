@@ -6,7 +6,7 @@ import { auth } from '../firebase.config';
 
 export const Header = () => {
 
-  const currentUser = useSelector((state: RootState) => state.authUser.userDetails);
+  const currentUser : any= useSelector((state: RootState) => state.authUser.userDetails);
   
   const handleLogOut = () => {
     signOut(auth).then(()=>{
@@ -25,8 +25,8 @@ export const Header = () => {
           <h1>TaskBuddy</h1>
         </div>
         <div className="user-profile flex gap-2 items-center">
-          <img src={currentUser?.profilePic } alt="User Profile" className="w-8 h-8 rounded-full" />
-          <h1 className="text-base">{currentUser?.name || 'User'}</h1>
+          <img src={currentUser.profilePic} alt="User Profile" className="w-8 h-8 rounded-full" />
+          <h1 className="text-base">{currentUser.name || 'User'}</h1>
         </div>
       </div>
       <div className="sec-2 flex justify-between mt-2">

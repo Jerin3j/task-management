@@ -4,7 +4,7 @@ export interface User{
     uuid: any,
     name: string,   
     email: string,
-    profilePic: string,
+    profilePic: any,
 }
 //State
 interface UserState{
