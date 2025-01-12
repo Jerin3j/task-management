@@ -12,6 +12,6 @@ A simple **Task Management Tool** built using **React with TypeScript**, **Fireb
   - Styled components with utility-first Tailwind CSS for clean and maintainable design.  
 
 ## Live Demo  
-You can check the live version of the project here: [https://task-management-jerin3j.vercel.app/](#)  
+You can check the live version of the project here: [https://task-management-jerin3j.vercel.app/]  
 
 > Note: This project is a work in progress, with core functionality implemented and additional features planned for future development.  
